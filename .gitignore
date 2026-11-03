@@ -1,0 +1,30 @@
+
+# Power BI temporary and backup files
+*.tmp
+*.bak
+*.log
+
+# Temporary and cache files
+*.cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
+
+# Temporary exports
+*.temp
